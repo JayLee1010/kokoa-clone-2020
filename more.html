@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Find - Kokoa Clone</title>
+    <title>More - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -27,60 +27,69 @@
     </div>
 
     <header class="screen-header">
-      <h1 class="screen-header__title">Find</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span class="screen-header__cog">
-          <i class="fas fa-cog fa-lg"></i
-          ><span class="screen-header__cogdot"></span>
-        </span>
+        <span><i class="fas fa-music fa-lg"></i></span>
+        <span
+          ><i class="fas fa-cog fa-lg"></i
+          ><span class="screen-header__cogdot"></span
+        ></span>
       </div>
     </header>
 
     <main class="main-screen">
-      <div class="icon-row">
-        <div class="icon-row__icons">
-          <i class="fas fa-qrcode fa-2x"></i><span>QR Code</span>
-        </div>
-        <div class="icon-row__icons">
-          <i class="far fa-address-book fa-2x"></i><span>Add by Contacts</span>
-        </div>
-        <div class="icon-row__icons">
-          <i class="fas fa-fingerprint fa-2x"></i><span>Add by ID</span>
-        </div>
-        <div class="icon-row__icons">
-          <i class="far fa-envelope fa-2x"></i><span>Invite</span>
-        </div>
-      </div>
-      <div class="recommended-friends">
-        <h6 class="recommended-friends__titile">Recommended Friends</h6>
-        <span>You have no recommended friends.</span>
-      </div>
-      <div class="open-chat">
-        <div class="open-chat__header">
-          <h4>Open Chat</h4>
-          <span
-            >Go to Openchat Home<i class="fas fa-chevron-right fa-xs"></i
-          ></span>
-        </div>
-        <div class="openchat-room">
-          <div class="openchat-room__column">
-            <h5 class="openchat-room__title">#BTS</h5>
-            <h6 class="openchat-room__hashtags">#bts#army#friends</h6>
-            <div class="openchat-room__members">
-              <img class="openchat-room__members-pic" src="img/pic.jpg" />
-              <span class="openchat-room__members-count">802 members </span>
-              <div class="divider"></div>
-              <span class="openchat-room__members-status"> Active</span>
-            </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="img/pic.jpg"
+            class="user-component__avatar user-component__avatar-chats"
+          />
+          <div class="user-component__text user-component__more">
+            <h4 class="user-component__name">이제혁</h4>
+            <h6 class="user-component__subtitle">
+              +821071579042 <span class="more__astmark">!</span>
+            </h6>
           </div>
-          <div class="openchat-room__column">
-            <div class="openchat-room__photo">
-              <img src="img/pic.jpg" />
-              <div class="openchat-room__heart-count">
-                <i class="fas fa-heart"></i> <span>326</span>
-              </div>
+        </div>
+        <div class="user-component__column">
+          <i class="far fa-comment-alt fa-2x more__note"></i>
+        </div>
+      </div>
+      <div class="icon-row more__icons">
+        <div class="icon-row__icons">
+          <i class="far fa-calendar-alt fa-2x"></i><span>Calender</span>
+        </div>
+        <div class="icon-row__icons">
+          <i class="far fa-smile-wink fa-2x"></i><span>Emoticons</span>
+        </div>
+        <div class="icon-row__icons">
+          <i class="fas fa-paint-brush fa-2x"></i><span>Themes</span>
+        </div>
+        <div class="icon-row__icons">
+          <i class="fas fa-file-invoice-dollar fa-2x"></i><span>Accounts</span>
+        </div>
+      </div>
+      <div class="more__suggestions">
+        <span class="more__suggestions-title">Suggestions</span>
+        <div class="more__suggestions-icons">
+          <div class="more__suggestions-icons-column">
+            <div class="more__suggestions-icons-column-pic">
+              <i class="fas fa-archive fa-2x"></i>
             </div>
+            <span>Kokoa Story</span>
+          </div>
+          <div class="more__suggestions-icons-column">
+            <div class="more__suggestions-icons-column-pic">
+              <i class="fab fa-linux fa-2x"></i>
+            </div>
+            <span>Kokoa Friends</span>
+          </div>
+          <div class="more__suggestions-icons-column">
+            <div class="more__suggestions-icons-column-pic">
+              <i class="far fa-gem fa-2x"></i>
+            </div>
+            <span>Friends Gem</span>
           </div>
         </div>
       </div>
@@ -96,7 +105,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span
-            ><i class="far fa-comments fa-2x"></i
+            ><i class="fas fa-comments fa-2x"></i
           ></a>
         </li>
         <li class="nav__btn">
