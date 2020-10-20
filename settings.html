@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - Kokoa Clone</title>
+    <title>Settings - Kokoa Clone</title>
   </head>
   <body>
     <div class="status-bar">
@@ -26,36 +26,33 @@
       </div>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icons">
-        <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span
-          ><a href="settings.html"><i class="fas fa-cog fa-lg"></i></a
-          ><span class="screen-header__cogdot"></span
-        ></span>
+    <header class="alt-header">
+      <div class="alt-header-column">
+        <i class="fas fa-angle-left fa-3x"></i>
+      </div>
+      <div class="alt-header-column">
+        <h1 class="alt-header__title">Settings</h1>
+      </div>
+      <div class="alt-header-column">
+        <i class="fas fa-search fa-2x"></i>
       </div>
     </header>
 
     <main class="main-screen">
-      <div class="user-component">
-        <div class="user-component__column">
-          <img
-            src="img/pic.jpg"
-            class="user-component__avatar user-component__avatar-chats"
-          />
-          <div class="user-component__text">
-            <h4 class="user-component__name">이제혁</h4>
-            <h6 class="user-component__subtitle">Plz check my kokoa info</h6>
-          </div>
-        </div>
-        <div class="user-component__column">
-          <span class="chats__time">21:22</span>
-          <span class="badge">1</span>
-        </div>
-      </div>
+      <ul class="settings-list">
+        <li class="settings__setting">
+          <i class="fas fa-bullhorn"></i>
+          <span> Notices </span>
+        </li>
+        <li class="settings__setting">
+          <i class="fas fa-flask"></i>
+          <span>Kokoa Lab </span>
+        </li>
+        <li class="settings__setting">
+          <i class="fas fa-info-circle"></i>
+          <span> Version </span>
+        </li>
+      </ul>
     </main>
 
     <nav class="nav">
