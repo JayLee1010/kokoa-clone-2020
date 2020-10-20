@@ -55,7 +55,7 @@
 }
 
 .openchat-room__members-count {
-  color: rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
   font-size: 14px;
 }
 
@@ -89,8 +89,8 @@
   display: flex;
   justify-content: center;
   position: absolute;
-  right: 28px;
-  bottom: 42px;
+  right: 30px;
+  bottom: -5px;
   font-size: 12px;
 }
 

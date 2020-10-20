@@ -4,18 +4,6 @@
   font-size: 18px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
-
-.settings__setting-column:first-child {
-  display: flex;
-  align-items: center;
-}
-
-.settings__setting-column:last-child {
-  margin-right: 20px;
-  font-size: 18px;
-  color: rgba(0, 0, 0, 0.6);
 }
 
 .settings__setting i {

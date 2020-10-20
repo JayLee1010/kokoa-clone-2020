@@ -1,35 +1,19 @@
 .alt-header {
   position: fixed;
   display: flex;
-  top: 35px;
+  top: 28px;
   box-sizing: border-box;
   width: 100%;
-  padding-top: 0px;
   align-items: center;
-  justify-content: center;
-  background-color: inherit;
-  z-index: 31;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.alt-header i {
+  margin: 0px var(--horizontal-space);
 }
 
 .alt-header h1 {
   font-size: 28px;
   font-weight: 600;
-}
-
-.alt-header-column:first-child {
-  position: absolute;
-  left: var(--horizontal-space);
-}
-
-.alt-header-column:nth-child(2) {
-  text-align: center;
-}
-
-.alt-header-column:last-child {
-  position: absolute;
-  right: var(--horizontal-space);
-}
-
-.alt-header__bars {
-  margin-left: 10px;
 }
