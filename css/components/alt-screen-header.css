@@ -30,6 +30,11 @@
   right: var(--horizontal-space);
 }
 
+.alt-header-column:last-child:hover {
+  animation: hoverCog 1.5s ease-in-out infinite;
+  cursor: pointer;
+}
+
 .alt-header__bars {
   margin-left: 10px;
 }

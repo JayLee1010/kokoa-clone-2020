@@ -71,5 +71,5 @@
   justify-content: center;
   font-size: 85px;
   animation: hideSplashScreen 1s ease-in-out forwards;
-  animation-delay: 2s;
+  animation-delay: 1s;
 }

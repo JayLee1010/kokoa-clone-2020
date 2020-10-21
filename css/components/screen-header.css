@@ -36,3 +36,21 @@
   right: -3px;
   top: -8px;
 }
+
+@keyframes hoverCog {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) scale(1.2);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.screen-header i:hover {
+  will-change: transform;
+  animation: hoverCog 1.5s ease-in-out infinite;
+  cursor: pointer;
+}
